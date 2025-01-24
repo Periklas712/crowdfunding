@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/smart/static/css/main.39e0cb5a.css",
-    "main.js": "/smart/static/js/main.ddc9916e.js",
-    "static/js/488.c0a69d01.chunk.js": "/smart/static/js/488.c0a69d01.chunk.js",
-    "index.html": "/smart/index.html",
-    "main.39e0cb5a.css.map": "/smart/static/css/main.39e0cb5a.css.map",
-    "main.ddc9916e.js.map": "/smart/static/js/main.ddc9916e.js.map",
-    "488.c0a69d01.chunk.js.map": "/smart/static/js/488.c0a69d01.chunk.js.map"
+    "main.css": "/crowdfunding/static/css/main.39e0cb5a.css",
+    "main.js": "/crowdfunding/static/js/main.28aa8040.js",
+    "static/js/488.abbdc647.chunk.js": "/crowdfunding/static/js/488.abbdc647.chunk.js",
+    "index.html": "/crowdfunding/index.html",
+    "main.39e0cb5a.css.map": "/crowdfunding/static/css/main.39e0cb5a.css.map",
+    "main.28aa8040.js.map": "/crowdfunding/static/js/main.28aa8040.js.map",
+    "488.abbdc647.chunk.js.map": "/crowdfunding/static/js/488.abbdc647.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39e0cb5a.css",
-    "static/js/main.ddc9916e.js"
+    "static/js/main.28aa8040.js"
   ]
 }
