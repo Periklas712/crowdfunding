@@ -1,15 +1,82 @@
-Crowdfunding DApp 🚀
-This is a decentralized crowdfunding application built with React and Ethereum Smart Contracts. Users can create and fund campaigns securely on the blockchain.
-Application Page: https://periklas712.github.io/crowdfunding/ 
+# Crowdfunding DApp
 
-Features 🌟  
-📌 Create crowdfunding campaigns
-💰 Fund projects using cryptocurrency
-🔍 View campaign details transparently
-🔗 Smart contract integration with Web3
+Μια αποκεντρωμένη πλατφόρμα crowdfunding που λειτουργεί στο Ethereum blockchain, επιτρέποντας στους χρήστες να δημιουργούν και να χρηματοδοτούν καμπάνιες με διαφάνεια και ασφάλεια.
 
-Tech Stack 🛠
-React (Frontend)
-Solidity (Smart Contracts)
-Web3.js (Blockchain Interaction)
-Metamask (Wallet Connection)
+- [Επισκόπηση](#επισκόπηση)
+- [Τεχνολογίες](#τεχνολογίες)
+- [Λειτουργίες](#λειτουργίες)
+- [Εγκατάσταση](#εγκατάσταση)
+
+## 🔍 Επισκόπηση
+
+Αυτή η αποκεντρωμένη εφαρμογή (DApp) επιτρέπει σε επιχειρηματίες να δημιουργούν καμπάνιες crowdfunding και στους επενδυτές να υποστηρίζουν αυτές τις καμπάνιες μέσω του Ethereum blockchain. Το σύστημα εξασφαλίζει διαφάνεια, ασφάλεια και αυτοματοποίηση μέσω των smart contracts.
+
+## 🛠️ Τεχνολογίες
+
+- **Ethereum Blockchain**: Η βασική τεχνολογία για την εκτέλεση smart contracts
+- **Solidity**: Η γλώσσα προγραμματισμού για την ανάπτυξη των smart contracts
+- **Web3.js**: Η βιβλιοθήκη JavaScript για αλληλεπίδραση με το Ethereum blockchain
+- **MetaMask**: Χρησιμοποιείται για σύνδεση με το Ethereum wallet του χρήστη
+- **JavaScript/React**: Frontend τεχνολογίες (προϋποτίθεται με βάση τη δομή του project)
+
+## ⚙️ Λειτουργίες
+
+Η πλατφόρμα προσφέρει τις εξής λειτουργίες:
+
+### Για Επιχειρηματίες:
+- Δημιουργία καμπάνιας crowdfunding με τίτλο, κόστος μεριδίου και απαιτούμενο αριθμό μεριδίων
+- Ακύρωση καμπάνιας (εφόσον δεν έχει ολοκληρωθεί)
+- Ολοκλήρωση καμπάνιας και λήψη των κεφαλαίων (εφόσον επιτευχθεί ο στόχος)
+
+### Για Επενδυτές:
+- Προβολή ενεργών καμπανιών
+- Αγορά μεριδίων σε καμπάνιες
+- Επιστροφή χρημάτων σε περίπτωση ακύρωσης καμπάνιας
+
+### Για Διαχειριστές:
+- Αλλαγή ιδιοκτησίας του συμβολαίου
+- Αποκλεισμός διευθύνσεων
+- Απόσυρση προμηθειών
+- Καταστροφή του συμβολαίου σε περίπτωση ανάγκης
+
+## 🚀 Εγκατάσταση
+
+```bash
+# Κλωνοποίηση του repository
+git clone https://github.com/Periklas712/crowdfunding.git
+
+# Μετάβαση στον φάκελο του project
+cd crowdfunding
+
+# Εγκατάσταση των dependencies
+npm install
+
+# Εκκίνηση του development server
+npm start
+```
+
+## 📝 Χρήση
+
+### Προαπαιτούμενα:
+- Εγκατεστημένο [MetaMask](https://metamask.io/) ή άλλο συμβατό Ethereum wallet
+- Σύνδεση σε Ethereum testnet (π.χ. Rinkeby, Ropsten) ή στο Ethereum mainnet
+- ETH για πληρωμή gas fees και συμμετοχή σε καμπάνιες
+
+### Βασικές Λειτουργίες:
+
+1. **Σύνδεση Wallet**: Συνδέστε το MetaMask wallet σας στην εφαρμογή
+2. **Περιήγηση στις Καμπάνιες**: Δείτε τις ενεργές καμπάνιες crowdfunding
+3. **Δημιουργία Καμπάνιας**: Συμπληρώστε τα απαιτούμενα στοιχεία (τίτλος, κόστος μεριδίου, απαιτούμενα μερίδια)
+4. **Επένδυση**: Επιλέξτε μια καμπάνια και αγοράστε το επιθυμητό αριθμό μεριδίων
+
+## 🤝 Συνεισφορά
+
+Οι συνεισφορές είναι ευπρόσδεκτες! 
+
+## 📄 Άδεια
+
+Αυτό το project διανέμεται υπό την άδεια MIT. Δείτε το αρχείο `LICENSE` για περισσότερες πληροφορίες.
+
+---
+
+Αναπτύχθηκε με ❤️ από [Periklas712](https://github.com/Periklas712)
